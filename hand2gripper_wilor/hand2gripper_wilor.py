@@ -198,7 +198,6 @@ class HandRenderer:
     """3D hand mesh renderer for visualization"""
     
     def __init__(self, model_cfg=os.path.join(os.path.dirname(__file__), 'pretrained_models', 'model_config.yaml'), faces: np.ndarray=np.array([[0, 1, 2], [1, 2, 3]])):
-        breakpoint()
         self.model_cfg = model_cfg
         self.faces = faces
         self.renderer = Renderer(model_cfg, faces=faces)

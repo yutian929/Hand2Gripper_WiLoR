@@ -1,5 +1,7 @@
 __pycache__
+.pytest_cache/
 *.egg-info/
-pretrained_models/
+hand2gripper_wilor/pretrained_models/*.pt
+hand2gripper_wilor/pretrained_models/*.ckpt
 hand2gripper_wilor/mano_data/MANO*.pkl
 demo_out/
