@@ -1,0 +1,4 @@
+__pycache__
+pretrained_models/
+mano_data/MANO*.pkl
+demo_out/
