@@ -1,4 +1,5 @@
 __pycache__
+*.egg-info/
 pretrained_models/
-mano_data/MANO*.pkl
+hand2gripper_wilor/mano_data/MANO*.pkl
 demo_out/
